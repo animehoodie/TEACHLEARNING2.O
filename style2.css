@@ -5,7 +5,7 @@
 }
 
 nav {
-  background-image: url('images/image.png');
+  background-image: url('image.png');
   color: #0a4146;
   text-align: center;
   padding: 5px;
@@ -24,7 +24,7 @@ nav a:hover {
   border-radius: 10px;
 }
 header {
-  background-image: url('images/image.png');
+  background-image: url('image.png');
   position: relative;
   color: white;
   height: 105%;
@@ -35,7 +35,7 @@ header {
 .imagsyl{
   color: black;
   text-align: center;
-  background-image: url('images/imagesyllabus.png');
+  background-image: url('imagesyllabus.png');
   float: center;
   padding: 5px;
   width: 20%;
@@ -45,7 +45,7 @@ header {
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('images/wtaremark.png');
+    background-image: url('wtaremark.png');
     background-repeat: no-repeat;
     background-size: 500px;
     background-position: center;
