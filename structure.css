@@ -65,8 +65,8 @@ table:hover{
 }
 /* button code css*/
 .triangle-button {
-    height: 70px;
-    width:13.5%;
+    height: 52.5px;
+    width: 10.12% ;
     border-top-left-radius: 175%;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
@@ -76,8 +76,8 @@ table:hover{
   
   
   .butoon5{
-    height: 70px;
-    width: 13.5% ;
+    height: 52.5px;
+    width: 10.12% ;
     border-top-left-radius: 0%;
     border-bottom-left-radius: 175%;
     border-bottom-right-radius: 0%;
@@ -88,8 +88,8 @@ table:hover{
   }
   
   .butoon2{
-    height: 70px;
-    width:  13.5%;
+    height: 52.5px;
+    width: 10.12% ;
     border-top-left-radius: 0%;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
@@ -98,8 +98,8 @@ table:hover{
   }
   
   .button6{
-    height: 70px;
-    width:  13.5%;
+    height: 52.5px;
+    width: 10.12% ;
     border-top-left-radius: 0%;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 175%;
@@ -115,16 +115,16 @@ table:hover{
    
   }
   .button3{
-    height: 70px; 
-    width: 13.5%; 
+    height: 52.5px;
+    width: 10.12% ;
     border-top-left-radius: 50%; 
     border-bottom-left-radius: 50%;
     margin-left: 5px;
   }
   
   .button4{
-    height: 70px; 
-    width:  13.5%; 
+    height: 52.5px;
+    width: 10.12% ;
     border-top-right-radius: 50%; 
     border-bottom-right-radius: 50%;
     margin-left: 5px;
