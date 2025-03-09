@@ -28,7 +28,7 @@ header {
   position: relative;
   color: white;
   height: 105%;
-  width: 150%;
+  width: 100%;
   box-shadow: #333;
 }
 
@@ -68,7 +68,7 @@ body {
     margin-top: 250px;
     position:static;
     bottom: 0;
-    width: 150%;
+    width: 100%;
     
 }
 
