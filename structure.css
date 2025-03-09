@@ -1,20 +1,11 @@
 .buttons{
-  padding: %;
-
-}
-
-button {
-    padding: 10px 50px;
-    margin: 0px;
-    cursor: pointer;
-    background-image: url('button.jpg');
-    color: white;
+  text-align: center;
 }
 
 table {
    
     width: fit-content;
-    margin: -215px  auto;
+    margin: 40px  auto;
     border-radius: 50px;
     background-color: white;
     border-collapse: collapse;
@@ -24,10 +15,6 @@ table {
 table, th, td, tr {
     border:0px solid white;
     padding: 10px solid #ddd;
-   
-    
-    
-   
    
 }
 
@@ -60,75 +47,9 @@ tr:hover{
     
 }
 table:hover{
-  box-shadow: 8px 8px 8px rgb(210, 247, 230);
+  box-shadow: 5px 4px 80px 4px rgb(210, 247, 230);
   display: block;
 }
-/* button code css*/
-.triangle-button {
-    height: 52.5px;
-    width: 10.12% ;
-    border-top-left-radius: 175%;
-    border-bottom-left-radius: 0%;
-    border-bottom-right-radius: 0%;
-    border-top-right-radius: 0%;
-    margin-left: 5px;
-  }
-  
-  
-  .butoon5{
-    height: 52.5px;
-    width: 10.12% ;
-    border-top-left-radius: 0%;
-    border-bottom-left-radius: 175%;
-    border-bottom-right-radius: 0%;
-    border-top-right-radius: 0%;
-    margin-left: 5px;
-    text-align: top;
-  
-  }
-  
-  .butoon2{
-    height: 52.5px;
-    width: 10.12% ;
-    border-top-left-radius: 0%;
-    border-bottom-left-radius: 0%;
-    border-bottom-right-radius: 0%;
-    border-top-right-radius: 175%;
-    margin-left: 5px;
-  }
-  
-  .button6{
-    height: 52.5px;
-    width: 10.12% ;
-    border-top-left-radius: 0%;
-    border-bottom-left-radius: 0%;
-    border-bottom-right-radius: 175%;
-    border-top-right-radius: 0%;
-    margin-left: 5px;
-  
-  }
-  
-  
-  
-  .triangle-button:hover {
-    border-bottom-color: #62b1e6; /* Change color on hover */
-   
-  }
-  .button3{
-    height: 52.5px;
-    width: 10.12% ;
-    border-top-left-radius: 50%; 
-    border-bottom-left-radius: 50%;
-    margin-left: 5px;
-  }
-  
-  .button4{
-    height: 52.5px;
-    width: 10.12% ;
-    border-top-right-radius: 50%; 
-    border-bottom-right-radius: 50%;
-    margin-left: 5px;
-  }
 
   .footer{
     background-color: #202020;
@@ -157,4 +78,24 @@ table:hover{
 .h1{
   float: center;
   background-image: none;
+}
+.h1:hover{
+  background-color: #022b65;
+}
+.circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image:url('images/imagesyllabus.png') ;
+  color: white;
+  border: none;
+  font-size: 10px;
+  display: inline-table;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color;
+ 
+}
+.circle:hover{
+  box-shadow: 5px 4px 50px 4px #022b65;
 }
