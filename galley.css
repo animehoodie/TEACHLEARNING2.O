@@ -1,0 +1,44 @@
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 450;
+}
+
+/* Styling the marquee effect */
+.marquee {
+  display: flex;
+  animation: marquee 25s linear infinite;
+}
+
+/* Styling each image */
+.marquee img {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+  transition: transform 0.2s ease;
+}
+
+/* Larger centered image */
+.centered-img {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border: 5px solid #ccc;
+}
+
+/* Keyframe for scrolling effect */
+@keyframes marquee {
+  0% {
+      transform: translateX(100%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+/* Hover effect on marquee to stop it */
+.marquee-container:hover .marquee {
+  animation-play-state: paused;
+}
